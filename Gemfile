@@ -10,11 +10,13 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', '~> 3.0.3.0'
 
 group :development, :test do
-gem 'sqlite3'
+	gem 'sqlite3'
 end
 
-group :productoin do
+group :production do
 	gem 'pg'
+	gem 'rails_12factor'
+end
 
 group :doc do
   gem 'sdoc', require: false
