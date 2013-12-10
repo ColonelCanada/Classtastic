@@ -1,5 +1,9 @@
 $body-bg:       #c0392b;
-$navbar-default-bg:   #2c3e50;
-$navbar-default-link-color:   #ecf0f1;
+$navbar-default-bg:   #ecf0f1;
+$navbar-default-link-color:   #c0392b;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
